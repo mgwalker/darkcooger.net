@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  jekyll:
+    image: jekyll/jekyll
+    working_dir: /srv/jekyll
+    environment:
+      - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+    volumes:
+      - ./:/srv/jekyll
+    ports:
+      - 8080:4000
+    command: jekyll serve
