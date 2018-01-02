@@ -1,0 +1,55 @@
+---
+layout: custom
+---
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Trump's term ends in...</title>
+  
+  <link rel="stylesheet" href="{{ "css/main.css" | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+  <meta property="og:url" content="https://darkcooger.net/trump-countdown/" />
+  <meta property="og:title" content="Trump term countdown" />
+  <!-- Alas, since the crawlers don't execute Javascript, there's no way to set these
+       values purely programmatically.  I was relying on Jekyll to do it when it was
+       acting as my server, but that wasn't the best way to run, and this is cheaper...
+       Anyway, for now, get rid of the dynamic description.
+  <meta property="og:description" content="Trump&rsquo;s term ends in {{remainder.days}} days, {{remainder.hours}} hours, {{remainder.minutes}} minutes...unless we impeach the bastard" />
+  -->
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="https://darkcooger.net/trump-countdown/assets/itmfa.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Trump term countdown" />
+  <!--
+  <meta name="twitter:description" content="Trump&rsquo;s term ends in {{remainder.days}} days, {{remainder.hours}} hours, {{remainder.minutes}} minutes...unless we impeach the bastard" />
+  -->
+  <meta name="twitter:image" content="https://darkcooger.net/trump-countdown/assets/itmfa.png" />
+</head>
+<body>
+  <header>
+    <div class="progress-bar" style="width: 19.54%;"></div><div class="progress-number">We're <span id="remainder-percent">19.54</span>% of the way through...</div>
+  </header>
+  <div class="table">
+    <div class="cell">
+      Trump’s term ends in <span id="remainder-days"></span> days,
+      <span id="remainder-hours"></span> hours,
+      <span id="remainder-minutes"></span> minutes
+      <div class="sub">...unless we impeach the bastard</div>
+    </div>
+  </div>
+  <footer>
+    <img src="assets/itmfa.png">
+  </footer>
+
+  <script type="text/javascript" src="assets/js/moment.min.js"></script>
+  <script type="text/javascript" src="assets/js/timediff.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
