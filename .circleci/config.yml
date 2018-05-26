@@ -1,0 +1,30 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/ruby:2.4
+    environment:
+      NOKOGIRI_USE_SYSTEM_LIBRARIES: true # speeds up installation of html-proofer
+    steps:
+      - checkout
+      - restore_cache:
+          key: site-bundle-{{ checksum "Gemfile.lock" }}
+      - run:
+          name: install dependencies
+          command: bundle check || bundle install
+      - save_cache:
+          key: site-bundle-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+      - run:
+          name: build
+          command: bundle exec jekyll build
+      - run:
+          name: check html
+          command: bundle exec htmlproofer ./_site --allow-hash-href --check-html --disable-external
+      - run:
+          name: install AWS CLI
+          command: sudo apt-get -y -qq install awscli
+      - run:
+          name: deploy
+          command: aws s3 sync ./_site s3://darkcooger.net/ --delete --exclude "gifs/*"
