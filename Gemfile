@@ -1,7 +1,0 @@
-source 'https://rubygems.org'
-gem 'jekyll'
-gem 'jekyll-watch'
-gem 'kramdown'
-gem 'rouge'
-gem 'jekyll-paginate'
-gem 'html-proofer'
