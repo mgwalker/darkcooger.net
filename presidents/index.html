@@ -1,31 +1,38 @@
 <html>
-<head>
-  <title>Presidents!</title>
-  <link rel="stylesheet" type="text/css" href="static/style.css"/>
-</head>
-<body>
-  <header class="index">
-    <img src="static/us-flag.svg" alt="United States flag" />
-    Welcome to the Past Presidents API
-  </header>
+  <head>
+    <title>Presidents!</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css" />
+  </head>
+  <body>
+    <header class="index">
+      <img src="static/us-flag.svg" alt="United States flag" />
+      Welcome to the Past Presidents API
+    </header>
 
-  <div class="content">
-    Here's a little API with data about past presidents.  The API querying is
-    pretty flexible, with all the actions described below.  To use the API,
-    just hit the endpoint <a href="https://apis.darkcooger.net/presidents/">apis.darkcooger.net/presidents/</a>
-    with any of the desired actions added on as path elements.  For example,
-    if you want to see the list of living presidents sorted by age:<br/><br/>
-    <a href="https://apis.darkcooger.net/presidents/living/age/sorted">apis.darkcooger.net/presidents/living/age/sort</a>
+    <div class="content">
+      Here's a little API with data about past presidents. The API querying is
+      pretty flexible, with all the actions described below. To use the API,
+      just hit the endpoint
+      <a href="https://presidents-api-darkcooger-net.herokuapp.com"
+        >presidents-api-darkcooger-net.herokuapp.com</a
+      >
+      with any of the desired actions added on as path elements. For example, if
+      you want to see the list of living presidents sorted by age:<br /><br />
+      <a
+        href="https://presidents-api-darkcooger-net.herokuapp.com/living/age/sorted"
+        >presidents-api-darkcooger-net.herokuapp.com/living/age/sort</a
+      >
 
-    <br/><br/>
+      <br /><br />
 
-    The actions can come in any order, but any time you have use
-    <span class="code">sort</span>, it will sort the list bsaed on the nearest
-    previous sortable action.  For example, in <span class="code">
-    /api/age/sort/term/birthday/</span>, the results will be sorted by age.
-    The same is true with the <span class="code">stats</span> action.
+      The actions can come in any order, but any time you have use
+      <span class="code">sort</span>, it will sort the list bsaed on the nearest
+      previous sortable action. For example, in
+      <span class="code"> /api/age/sort/term/birthday/</span>, the results will
+      be sorted by age. The same is true with the
+      <span class="code">stats</span> action.
 
-    <!--
+      <!--
     <br/><br/>
 
     There's also a <a href="/view">viewer</a> that works like the API, but
@@ -36,66 +43,76 @@
     <a href="/view/living/birthday/term">presidents.darkcooger.net/view/living/birthday/term</a>
     -->
 
-    <br/><br/>
+      <br /><br />
 
-    Have fun!  The actions are listed below!
-  </div>
-
-  <div id="actions">
-  </div>
-
-  <div class="action">
-    <h2>raw<br/></h2>
-    <div>
-      Sends back the unclean data in its full glory
+      Have fun! The actions are listed below!
     </div>
-  </div>
 
-  <div class="action">
-    <h2>doc<br/></h2>
-    <div>
-      Sends back a list of understood actions and some documentation
-      of them (that's what this page is built from)
+    <div id="actions"></div>
+
+    <div class="action">
+      <h2>raw<br /></h2>
+      <div>
+        Sends back the unclean data in its full glory
+      </div>
     </div>
-  </div>
 
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript">
-    function getNameString(names) {
-      return names.reduce(function(string, name) {
-        if (string.length) {
-          string += '<br/>';
-        }
-        return string + name
-      }, '');
-    }
+    <div class="action">
+      <h2>doc<br /></h2>
+      <div>
+        Sends back a list of understood actions and some documentation of them
+        (that's what this page is built from)
+      </div>
+    </div>
 
-    $(document).ready(function() {
-      $.ajax('https://apis.darkcooger.net/presidents/doc', {
-        success: function(actions) {
-          const outer = $('#actions');
-          actions.forEach(function(action) {
-            var container = $('<div class="action"></div>');
-            container.append('<h2>' + getNameString(action.names) + '</h2>');
-            var innerDiv = $('<div></div>');
-            innerDiv.append(action.description);
-            var table = $('<table cellpadding="0" cellspacing="0"></table>');
-            if (action.sort) {
-              table.append('<tr><td class="name">sortable</td><td>' + action.sort + '</td></tr>');
-            }
-            if (action.stats) {
-              table.append('<tr><td class="name">statsable</td><td>' + action.stats + '</td></tr>');
-            }
-            innerDiv.append(table);
-            container.append(innerDiv);
-            outer.append(container);
-          });
-        },
-        error: function(xhr) {
-          console.log('error');
-        }
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+    ></script>
+    <script type="text/javascript">
+      function getNameString(names) {
+        return names.reduce(function(string, name) {
+          if (string.length) {
+            string += '<br/>';
+          }
+          return string + name;
+        }, '');
+      }
+
+      $(document).ready(function() {
+        $.ajax('presidents-api-darkcooger-net.herokuapp.com/doc', {
+          success: function(actions) {
+            const outer = $('#actions');
+            actions.forEach(function(action) {
+              var container = $('<div class="action"></div>');
+              container.append('<h2>' + getNameString(action.names) + '</h2>');
+              var innerDiv = $('<div></div>');
+              innerDiv.append(action.description);
+              var table = $('<table cellpadding="0" cellspacing="0"></table>');
+              if (action.sort) {
+                table.append(
+                  '<tr><td class="name">sortable</td><td>' +
+                    action.sort +
+                    '</td></tr>'
+                );
+              }
+              if (action.stats) {
+                table.append(
+                  '<tr><td class="name">statsable</td><td>' +
+                    action.stats +
+                    '</td></tr>'
+                );
+              }
+              innerDiv.append(table);
+              container.append(innerDiv);
+              outer.append(container);
+            });
+          },
+          error: function(xhr) {
+            console.log('error');
+          }
+        });
       });
-    });
-  </script>
-</body>
+    </script>
+  </body>
 </html>
