@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>pixures</title>
+    <style type="text/css">
+      * {
+        font-family: sans-serif;
+      }
+
+      textarea {
+        position: absolute;
+        left: -100em;
+      }
+
+      #search-bar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        padding: 1em;
+        background: black;
+        z-index: 10;
+      }
+
+      #search-bar input {
+        width: calc(100% - 2.5em);
+        font-size: 1.5em;
+        border-radius: 1.5em;
+        padding: 0.25em 0.5em;
+      }
+
+      #container {
+        position: absolute;
+        top: 5em;
+        left: 1vw;
+        width: 98vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      .cell {
+        width: 19%;
+        margin: 10px 0;
+        text-align: center;
+      }
+
+      .cell a {
+        cursor: pointer;
+      }
+
+      .cell a img {
+        max-width: 100%;
+      }
+
+      #copy-notification {
+        display: none;
+      }
+      #copy-notification.show {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-top: -25px;
+        margin-left: -150px;
+        height: 50px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #555;
+        color: white;
+        border-radius: 25px;
+        opacity: 1;
+      }
+      #copy-notification.fade {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-top: -25px;
+        margin-left: -150px;
+        height: 50px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #555;
+        color: white;
+        border-radius: 25px;
+        transition: opacity 2s;
+        opacity: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="search-bar">
+      <input id="search-bar-input" type="text" placeholder="search" />
+    </div>
+
+    <div id="container"></div>
+    <textarea id="copy-box" readOnly></textarea>
+    <div id="copy-notification">
+      URL copied to clipboard
+    </div>
+
+    <script type="text/javascript">
+      const allPixures = [];
+
+      const filter = () => {
+        const by = document
+          .getElementById('search-bar-input')
+          .value.toLowerCase();
+
+        const container = document.getElementById('container');
+        while (container.lastChild) {
+          container.removeChild(container.lastChild);
+        }
+        console.log('emptied container');
+
+        if (by === '') {
+          allPixures.forEach(addImg);
+        } else {
+          allPixures
+            .filter(
+              p =>
+                p.name.toLowerCase().includes(by) ||
+                p.tags.some(t => t.toLowerCase().includes(by))
+            )
+            .forEach(addImg);
+        }
+      };
+
+      const getHover = (pixure, img) => ({
+        on: () => {
+          img.setAttribute('src', pixure.uri);
+        },
+        off: () => {
+          img.setAttribute('src', pixure.static);
+        }
+      });
+
+      let setNotificationFadeTimeout;
+      let setNotificationHideTimeout;
+      const getClick = uri => () => {
+        clearTimeout(setNotificationFadeTimeout);
+        clearTimeout(setNotificationHideTimeout);
+
+        document.getElementById('copy-box').value = uri;
+        document.getElementById('copy-box').select();
+        document.execCommand('copy');
+
+        const notification = document.getElementById('copy-notification');
+        notification.setAttribute('class', 'show');
+        setNotificationFadeTimeout = setTimeout(
+          () => notification.setAttribute('class', 'fade'),
+          500
+        );
+        setNotificationHideTimeout = setTimeout(
+          () => notification.setAttribute('class', ''),
+          3000
+        );
+      };
+
+      const addImg = pixure => {
+        const cell = document.createElement('div');
+        cell.setAttribute('class', 'cell');
+        document.getElementById('container').appendChild(cell);
+
+        const header = document.createElement('div');
+        header.textContent = pixure.name;
+        cell.appendChild(header);
+
+        const a = document.createElement('a');
+        a.setAttribute('role', 'button');
+        a.setAttribute('tabindex', '0');
+        cell.appendChild(a);
+
+        const img = document.createElement('img');
+        img.setAttribute('src', pixure.static);
+        img.setAttribute('alt', pixure.name);
+        const { on, off } = getHover(pixure, img);
+        img.addEventListener('mouseenter', on);
+        img.addEventListener('mouseleave', off);
+        img.addEventListener('click', getClick(pixure.uri));
+        a.appendChild(img);
+      };
+
+      fetch(
+        'https://gist.githubusercontent.com/mgwalker/7b94a8d540775e477ebc494077992da1/raw/ad2ed63327479a8031aeac2943f8454368714906/images.json'
+      )
+        .then(response => response.json())
+        .then(pixures =>
+          pixures.map(p => ({
+            ...p,
+            static: p.uri.replace(/.gif/, 'h.jpg')
+          }))
+        )
+        .then(pixures => {
+          allPixures.push(...pixures);
+          pixures.forEach(addImg);
+          document
+            .getElementById('search-bar-input')
+            .addEventListener('input', filter);
+        });
+    </script>
+  </body>
+</html>
