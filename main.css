@@ -11,7 +11,7 @@ div {
   position: absolute;
   min-width: 100vw;
   min-height: 100vh;
-  background: url(../assets/cooger.svg);
+  background: url(cooger.svg);
   background-size: 100%;
   background-position: 0 35%;
   opacity: 0.6;
