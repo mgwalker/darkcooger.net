@@ -23,7 +23,7 @@ img {
   max-width: 600px;
 }
 
-img + img {
+div.image + div.image {
   border-top: 3px solid black;
   margin-top: 30px;
   padding-top: 30px;
