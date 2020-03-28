@@ -5,29 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Today in history, {{date}}</title>
+    <title>Today in history: {{date}}</title>
 
     <link rel="stylesheet" href="today.css">
     <link rel="canonical" href="https://darkcooger.net/today/{{short_date}}.html" />
 
     <meta property="og:url" content="https://darkcooger.net/today/{{short_date}}.html" />
-    <meta property="og:title" content="Today in history, {{date}}" />
+    <meta property="og:title" content="Today in history: {{date}}" />
     <meta property="og:description" content="{{title}}" />
     <meta property="og:type" content="article" />
     <meta property="og:image" content="https://darkcooger.net/today/{{hero}}" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Today in history, {{date}}" />
+    <meta name="twitter:title" content="Today in history: {{date}}" />
     <meta name="twitter:image" content="https://darkcooger.net/today/{{hero}}" />
   </head>
   <body>
 
-  <h1>Today in history, {{date}}</h1>
+  <h1>Today in history: {{date}}</h1>
 
   <div class="nav">{{#prev_date}}<a href="{{prev_date}}.html">Previous</a>{{#next_date}} | {{/next_date}}{{/prev_date}} {{#next_date}}<a href="{{next_date}}.html">Next</a>{{/next_date}}</div>
 
   {{#entries}}
-    <div class="image"><img src="{{file}}" alt="{{title}}"></div>
+    <div class="image">
+      <img src="{{file}}" alt="{{caption}}">
+      <p class="sr-only">{{date}} {{year}}: {{title}}</p>
+    </div>
   {{/entries}}
 
   </body>
