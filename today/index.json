@@ -82,5 +82,17 @@
         "file": "03-30-1992.jpg"
       }
     ]
+  },
+  {
+    "date": "March 31",
+    "short_date": "0331",
+    "entries": [
+      {
+        "year": "1918",
+        "title": "Daylight Savings Time goes into effect in the United States for the first time.",
+        "caption": "A man adjusts a clock and says, 'Time to spring forward!' A piranha creeper from Mario looks at the man and says, 'Say sike right now.'",
+        "file": "03-31-1918.jpg"
+      }
+    ]
   }
 ]
