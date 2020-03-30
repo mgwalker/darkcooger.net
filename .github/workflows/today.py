@@ -1,5 +1,6 @@
 import chevron
 import json
+import os.path
 from shutil import copyfile
 from datetime import date, timedelta
 
@@ -31,13 +32,9 @@ for entry in day["entries"]:
     copyfile(f"today/{entry['file']}", f"docs/today/{entry['file']}")
 
 next_date = get_str_from_date(this_day + timedelta(1))
-next_date = (
-    next_date if any(d["short_date"] == next_date for d in today_meta) else False
-)
+next_date = next_date if os.path.isfile(f"docs/today/{next_date}.html") else False
 prev_date = get_str_from_date(this_day + timedelta(-1))
-prev_date = (
-    prev_date if any(d["short_date"] == prev_date for d in today_meta) else False
-)
+prev_date = prev_date if os.path.isfile(f"docs/today/{prev_date}.html") else False
 
 template_data = {
     **day,
