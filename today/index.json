@@ -106,5 +106,29 @@
         "file": "04-01-1948.jpg"
       }
     ]
+  },
+  {
+    "date": "Aril 2",
+    "short_date": "0402",
+    "entries": [
+      {
+        "year": "1968",
+        "title": "2001: A Space Odyssey premiers",
+        "caption": "The computer HAL 9000 is speaking: 'Look Dave, I can see you're really upset about this. I honestly think you ought to sit down calmly, take a stress pill, and think things over. If you could see the next 19 years, you might not mind the lack of oxygen right now.",
+        "file": "04-02-1968.jpg"
+      }
+    ]
+  },
+  {
+    "date": "Aril 3",
+    "short_date": "0403",
+    "entries": [
+      {
+        "year": "1043",
+        "title": "Edward the Confessor is crowned King of England",
+        "caption": "A king stands with arms raised in victory and says, 'HA! I took the cookies, I left the seat up, I farted in the car, and now there's nothing you can do about it!'",
+        "file": "04-03-1043.jpg"
+      }
+    ]
   }
 ]
