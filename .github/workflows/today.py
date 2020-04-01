@@ -1,7 +1,7 @@
 import chevron
 import json
 import os.path
-from shutil import copyfile
+from shutil import move
 from datetime import date, timedelta
 
 template = open("today/day.mustache", "r")
@@ -21,7 +21,7 @@ def write_html(with_data, index=False):
     this_day = get_date_from_str(short_date)
 
     for entry in with_data["entries"]:
-        copyfile(f"today/{entry['file']}", f"docs/today/{entry['file']}")
+        move(f"today/{entry['file']}", f"docs/today/{entry['file']}")
 
     next_date = get_str_from_date(this_day + timedelta(1))
     next_date = next_date if os.path.isfile(f"docs/today/{next_date}.html") else False
