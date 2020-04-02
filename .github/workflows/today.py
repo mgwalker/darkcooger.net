@@ -21,7 +21,8 @@ def write_html(with_data, index=False):
     this_day = get_date_from_str(short_date)
 
     for entry in with_data["entries"]:
-        move(f"today/{entry['file']}", f"docs/today/{entry['file']}")
+        if os.path.isfile(f"today/{entry['file']}"):
+            move(f"today/{entry['file']}", f"docs/today/{entry['file']}")
 
     next_date = get_str_from_date(this_day + timedelta(1))
     next_date = next_date if os.path.isfile(f"docs/today/{next_date}.html") else False
@@ -55,7 +56,6 @@ with open("today/index.json", "r") as f:
 now = get_str_from_date(date.today())
 
 today_index = [d["short_date"] == now for d in today_meta].index(True)
-print(today_index)
 
 write_html(today_meta[today_index], True)
 if today_index >= 0:
