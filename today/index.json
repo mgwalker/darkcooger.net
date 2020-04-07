@@ -178,5 +178,41 @@
         "file": "04-07-1999.jpg"
       }
     ]
+  },
+  {
+    "date": "Aril 8",
+    "short_date": "0408",
+    "entries": [
+      {
+        "year": "1959",
+        "title": "Grace Hopper and her team meet for the first time to begin creating what will eventually become COBOL.",
+        "caption": "A female admiral stands at a table of other people and says, 'Yes, everyone will make fun of it, but we must make it good because these doofuses will be using whatever we make for at least 60 years.",
+        "file": "04-08-1959.jpg"
+      }
+    ]
+  },
+  {
+    "date": "Aril 9",
+    "short_date": "0409",
+    "entries": [
+      {
+        "year": "1991",
+        "title": "Georgia declares independence from the Soviet Union.",
+        "caption": "The US state of Georgia says, 'I denounce the Soviet Union and declare my independence!' The US state of Alabama responds, 'Dude, what the hell?'",
+        "file": "04-09-1991.jpg"
+      }
+    ]
+  },
+  {
+    "date": "Aril 10",
+    "short_date": "0410",
+    "entries": [
+      {
+        "year": "1970",
+        "title": "Paul McCartney announces he is leaving the Beatles.",
+        "caption": "Four people are in a Volkswagen Beetle. One man stands outside waving and says, 'Sorry boys, it was just too cramped in there.'",
+        "file": "04-10-1970.jpg"
+      }
+    ]
   }
 ]
