@@ -214,5 +214,41 @@
         "file": "04-10-1970.jpg"
       }
     ]
+  },
+  {
+    "date": "April 11",
+    "short_date": "0411",
+    "entries": [
+      {
+        "year": "1951",
+        "title": "General Douglas MacArthur is relieved of command in Korea by President Harry Truman",
+        "caption": "A general stands speaking and says, 'Old soldiers never die, just fade aw– no! Wait! Not literally!' as his body fades away",
+        "file": "04-11-1951.jpg"
+      }
+    ]
+  },
+  {
+    "date": "April 12",
+    "short_date": "0412",
+    "entries": [
+      {
+        "year": "1954",
+        "title": "Billy Haley and the Comets record 'Rock Around the Clock'",
+        "caption": "A jukebox plays 'Rock Around the Clock' while Fonzie says 'eeeyyyyyy'",
+        "file": "04-12-1954.jpg"
+      }
+    ]
+  },
+  {
+    "date": "April 21",
+    "short_date": "0421",
+    "entries": [
+      {
+        "year": "1918",
+        "title": "Baron von Richtoffen, better known as the Red Baron, is shot down for the last time",
+        "caption": "Snoopy is dressed in old-timey pilot gear, sitting on top of his doghouse. He says 'got im'",
+        "file": "04-21-1918.jpg"
+      }
+    ]
   }
 ]
