@@ -312,12 +312,36 @@
     ]
   },
   {
+    "date": "April 19",
+    "short_date": "0419",
+    "entries": [
+      {
+        "year": "1943",
+        "title": "Albert Hoffman deliberately doses himself with LSD for the first time.",
+        "caption": "A man seeing waves of colors says, 'The snozzberries taste like snozzberries!'",
+        "file": "04-19-1943.jpg"
+      }
+    ]
+  },
+  {
+    "date": "April 20",
+    "short_date": "0420",
+    "entries": [
+      {
+        "year": "1918",
+        "title": "Manfred von Richtofen shoots down two enemies, getting his 79th and 80th victories.",
+        "caption": "A red German Fokker Dr.1 triplane flies across the page.",
+        "file": "04-20-1918.jpg"
+      }
+    ]
+  },
+  {
     "date": "April 21",
     "short_date": "0421",
     "entries": [
       {
         "year": "1918",
-        "title": "Baron von Richtoffen, better known as the Red Baron, is shot down for the last time",
+        "title": "Baron von Richtofen, better known as the Red Baron, is shot down for the last time",
         "caption": "Snoopy is dressed in old-timey pilot gear, sitting on top of his doghouse. He says 'got im'",
         "file": "04-21-1918.jpg"
       }
