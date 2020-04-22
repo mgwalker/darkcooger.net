@@ -346,5 +346,29 @@
         "file": "04-21-1918.jpg"
       }
     ]
+  },
+  {
+    "date": "April 22",
+    "short_date": "0422",
+    "entries": [
+      {
+        "year": "1993",
+        "title": "NCSA Mosaic web browser version 1.0 released, bringing the modern web to life",
+        "caption": "A person pointing at a calendar labeled April 22 says, 'And this is the day it all went to shit.'",
+        "file": "04-22-1993.jpg"
+      }
+    ]
+  },
+  {
+    "date": "April 23",
+    "short_date": "0423",
+    "entries": [
+      {
+        "year": "1914",
+        "title": "First game at Wrigley Field, then known as Weegham Park",
+        "caption": "Wrigley Field",
+        "file": "04-23-1914.jpg"
+      }
+    ]
   }
 ]
