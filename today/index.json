@@ -382,5 +382,77 @@
         "file": "04-24-1558.jpg"
       }
     ]
+  },
+  {
+    "date": "April 25",
+    "short_date": "0425",
+    "entries": [
+      {
+        "year": "1953",
+        "title": "The structure of DNA as a double-helix is reported in the journal Nature in three simultaneous papers by Watson and Crick (describing a physical model of DNA), and Wilkins and Franklin (describing the data that underpinned the physical model).",
+        "caption": "A DNA double helix",
+        "file": "04-25-1953.jpg"
+      }
+    ]
+  },
+  {
+    "date": "April 26",
+    "short_date": "0426",
+    "entries": [
+      {
+        "year": "1905",
+        "title": "Cubs outfielder Jack McCarthy becomes the first major league player to throw out three runners at home plate in a single game",
+        "caption": "A Chicago Cubs baseball player throws a ball",
+        "file": "04-26-1905.jpg"
+      }
+    ]
+  },
+  {
+    "date": "April 27",
+    "short_date": "0427",
+    "entries": [
+      {
+        "year": "1981",
+        "title": "Xerox PARC introduces the computer mouse",
+        "caption": "A mouse is sitting at a computer, typing commands",
+        "file": "04-27-1981.jpg"
+      }
+    ]
+  },
+  {
+    "date": "April 28",
+    "short_date": "0428",
+    "entries": [
+      {
+        "year": "1881",
+        "title": "Billy the Kid escapes from jail",
+        "caption": "A baby wearing a cowboy hat and holster is crawling away from a crib",
+        "file": "04-28-1881.jpg"
+      }
+    ]
+  },
+  {
+    "date": "April 29",
+    "short_date": "0429",
+    "entries": [
+      {
+        "year": "1429",
+        "title": "Joan of Arc arrives to lift the siege of Orleans in the Hundred Years War",
+        "caption": "A woman in armor stands outside a castle, looking out towards enemy soldiers and says, 'What if, instead of saving this old Orleans, we just built a new one?'",
+        "file": "04-29-1429.jpg"
+      }
+    ]
+  },
+  {
+    "date": "April 30",
+    "short_date": "0430",
+    "entries": [
+      {
+        "year": "2013",
+        "title": "Willem-Alexander is inaugurated King of the Netherlands after the abdication of Beatrix",
+        "caption": "A king is throwing an orange toilet screaming, 'KING OF THROWING TOILETS!'",
+        "file": "04-30-2013.jpg"
+      }
+    ]
   }
 ]
