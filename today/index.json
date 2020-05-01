@@ -454,5 +454,17 @@
         "file": "04-30-2013.jpg"
       }
     ]
+  },
+  {
+    "date": "May 1",
+    "short_date": "0501",
+    "entries": [
+      {
+        "year": "1707",
+        "title": "The Acts of Union joining the Kingdoms of England and Scotland into the Kingdom of Great Britain takes effect.",
+        "caption": "People gathered around a table, Scottish flags on one side, English on the other. Two people sit at the table signing papers. One Scottish person says, 'We're really going to regret this in 300 years or so...'",
+        "file": "05-01-1707.png"
+      }
+    ]
   }
 ]
