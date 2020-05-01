@@ -466,5 +466,17 @@
         "file": "05-01-1707.png"
       }
     ]
+  },
+  {
+    "date": "May 2",
+    "short_date": "0502",
+    "entries": [
+      {
+        "year": "1780",
+        "title": "Xi Ursae Majoris, the first binary star discovered, is spotted by William Herschel.",
+        "caption": "A man looks into a telescope at a pair of stars encircled with 001100010010011110100001101101110011 and says, '...0011?' Behind him, a paradox-correcting timesphere opens with a robotic leg sticking out.",
+        "file": "05-02-1780.png"
+      }
+    ]
   }
 ]
