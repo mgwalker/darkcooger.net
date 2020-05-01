@@ -14,11 +14,11 @@
     <meta property="og:title" content="Today in history: {{date}}" />
     <meta property="og:description" content="{{title}}" />
     <meta property="og:type" content="article" />
-    <meta property="og:image" content="https://darkcooger.net/today/{{hero}}" />
+    <meta property="og:image" content="https://darkcooger.net/today/images/{{hero}}" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Today in history: {{date}}" />
-    <meta name="twitter:image" content="https://darkcooger.net/today/{{hero}}" />
+    <meta name="twitter:image" content="https://darkcooger.net/today/images/{{hero}}" />
   </head>
   <body>
 
@@ -28,7 +28,7 @@
 
   {{#entries}}
     <div class="image">
-      <img src="{{file}}" alt="{{caption}}">
+      <img src="images/{{file}}" alt="{{caption}}">
       <p class="sr-only">{{date}} {{year}}: {{title}}</p>
     </div>
   {{/entries}}

@@ -22,7 +22,7 @@ def write_html(with_data, index=False):
 
     for entry in with_data["entries"]:
         if os.path.isfile(f"today/{entry['file']}"):
-            move(f"today/{entry['file']}", f"docs/today/{entry['file']}")
+            move(f"today/{entry['file']}", f"docs/today/images/{entry['file']}")
 
     next_date = get_str_from_date(this_day + timedelta(1))
     next_date = next_date if os.path.isfile(f"docs/today/{next_date}.html") else False
