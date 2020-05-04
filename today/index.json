@@ -490,5 +490,29 @@
         "file": "05-03-1952.png"
       }
     ]
+  },
+  {
+    "date": "May 4",
+    "short_date": "0504",
+    "entries": [
+      {
+        "year": "1814",
+        "title": "The Bourbon Restoration begins in France with the exile of Napoleon and the new reign of Louis XVIII.",
+        "caption": "A bottle of bourbon wearing a crown says, 'Down with wine! Hail to the king, baby!'",
+        "file": "05-04-1814.png"
+      }
+    ]
+  },
+  {
+    "date": "May 5",
+    "short_date": "0505",
+    "entries": [
+      {
+        "year": "1925",
+        "title": "John T. Scopes is arrested for teaching evolution in violation of Tennessee law.",
+        "caption": "An angry monkey gestures wildly, wearing a golden cross and a sash saying 'William Jennings Bryan.' A person standing next to it says, 'I mean sure, not EVERYONE has evolved, but still...'",
+        "file": "05-05-1925.png"
+      }
+    ]
   }
 ]
