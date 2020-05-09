@@ -514,5 +514,53 @@
         "file": "05-05-1925.png"
       }
     ]
+  },
+  {
+    "date": "May 6",
+    "short_date": "0506",
+    "entries": [
+      {
+        "year": "1935",
+        "title": "The Works Progress Administration is created by President Roosevelt's executive order 7034.",
+        "caption": "A new bridge spanning a canyon and river",
+        "file": "05-06-1935.png"
+      }
+    ]
+  },
+  {
+    "date": "May 7",
+    "short_date": "0507",
+    "entries": [
+      {
+        "year": "1274",
+        "title": "The Second Council of Lyon begins in France to set rules for the election of the Pope",
+        "caption": "Two lions arue at a table",
+        "file": "05-07-1274.png"
+      }
+    ]
+  },
+  {
+    "date": "May 8",
+    "short_date": "0508",
+    "entries": [
+      {
+        "year": "1886",
+        "title": "John Pemberton sells Coca-Cola as a patent medicne for the first time",
+        "caption": "A man offering bottles of Coca-Cola on a table. A sign reads 'Cocaine Water 5¢.' The man says, 'This is some good shit first sip is free.'",
+        "file": "05-08-1886.png"
+      }
+    ]
+  },
+  {
+    "date": "May 9",
+    "short_date": "0509",
+    "entries": [
+      {
+        "year": "1874",
+        "title": "The first horsebus is debuted in Mumbai, India",
+        "caption": "A very long horse that is also a bus with some people in it",
+        "file": "05-09-1874.png"
+      }
+    ]
   }
 ]
