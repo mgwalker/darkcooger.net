@@ -586,5 +586,41 @@
         "file": "05-11-1858.png"
       }
     ]
+  },
+  {
+    "date": "May 12",
+    "short_date": "0512",
+    "entries": [
+      {
+        "year": "1846",
+        "title": "The Donner Party departs Independence, Missouri, on a journey to California.",
+        "caption": "A prairie on a green screen with a wagon and ox in front. A banner beneath the wagon reads, 'You were eaten by your children.'",
+        "file": "05-12-1846.png"
+      }
+    ]
+  },
+  {
+    "date": "May 13",
+    "short_date": "0513",
+    "entries": [
+      {
+        "year": "1983",
+        "title": "Reggie Jackson becomes the first person in Major League Baseball to strike out 2,000 times.",
+        "caption": "Reggie Jackson stands at home plate as a pitch goes past. The umpire yells 'Strike three!' Reggie Jackson thinks, 'Yes! A record!'",
+        "file": "05-13-1983.png"
+      }
+    ]
+  },
+  {
+    "date": "May 14",
+    "short_date": "0514",
+    "entries": [
+      {
+        "year": "1097",
+        "title": "The First Crusade begins in earnest with the Siege of Nicaea",
+        "caption": "A man in a brown hat swings by on a whip. In movie font reads: 'Virginia Smith and the First Crusade'",
+        "file": "05-14-1097.png"
+      }
+    ]
   }
 ]
