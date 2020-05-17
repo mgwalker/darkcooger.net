@@ -622,5 +622,47 @@
         "file": "05-14-1097.png"
       }
     ]
+  },
+  {
+    "date": "May 15",
+    "short_date": "0515",
+    "entries": [
+      {
+        "year": "1928",
+        "title": "Mickey Mouse debuts in his first cartoon, Plane Crazy",
+        "caption": "A Disney 'mouse ears' logo with red eyes and the words 'OMNIA MEA'",
+        "file": "05-15-1928.jpg"
+      }
+    ]
+  },
+  {
+    "date": "May 16",
+    "short_date": "0516",
+    "entries": [
+      {
+        "year": "1866",
+        "title": "The nickel coin is established by an act of the US Congress",
+        "caption": "Two people are standing. One is holding four pennies and says, 'Man, carrying around more than 4 pennies really sucks.' The other looks thoughtfully and says, 'There must be a better way...'",
+        "file": "05-16-1866.jpg"
+      }
+    ]
+  },
+  {
+    "date": "May 17",
+    "short_date": "0517",
+    "entries": [
+      {
+        "year": "1792",
+        "title": "The New York Stock Exchange is founded",
+        "caption": "Four wealthy people at an expensive banquet raise gold goblets and declare, 'Fuck the poor!'",
+        "file": "05-17-1792.jpg"
+      },
+      {
+        "year": "1954",
+        "title": "The US Supreme Court unaminously decides that segregation of schools on the basis of race is unconstitutional",
+        "caption": "A judge bangs a gavel and declares loudly, 'SEPARATE IS INHERENTLY UNEQUAL.'",
+        "file": "05-17-1954.jpg"
+      }
+    ]
   }
 ]
