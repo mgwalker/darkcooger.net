@@ -664,5 +664,29 @@
         "file": "05-17-1954.jpg"
       }
     ]
+  },
+  {
+    "date": "May 18",
+    "short_date": "0518",
+    "entries": [
+      {
+        "year": "1860",
+        "title": "At the Republican National Convention, Abraham Lincoln is nominted for President on the third ballot",
+        "caption": "Abraham Lincoln stands triumphantly in front of red white and blue bunting",
+        "file": "05-18-1860.jpg"
+      }
+    ]
+  },
+  {
+    "date": "May 19",
+    "short_date": "0519",
+    "entries": [
+      {
+        "year": "1780",
+        "title": "Around mid-day, the sky over New England and parts of Canada went so dark as to require candles, due to an unusual combination of clouds, thick fog, and forest fire smoke.",
+        "caption": "Two people are standing. One is holding a candle and says, 'What a day, huh?' The other says, 'Lemon, its noon.'",
+        "file": "05-19-1780.jpg"
+      }
+    ]
   }
 ]
