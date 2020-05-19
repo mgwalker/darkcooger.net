@@ -1,704 +1,416 @@
-[
-  {
-    "date": "March 25",
-    "short_date": "0325",
-    "entries": [
-      {
-        "year": "1655",
-        "title": "Christiaan Huygens discovers the largest moon of Saturn, Titan",
-        "caption": "Man looking into a telescope at Saturn, saying 'That's a big-ass moon.'",
-        "file": "03-25-1655.jpg"
-      }
-    ]
-  },
-  {
-    "date": "March 26",
-    "short_date": "0326",
-    "entries": [
-      {
-        "year": "1934",
-        "title": "The UK introduces a driving test.",
-        "caption": "A car driving down the road with two people. One person says, 'You are really bad at this and we never should have allowed it.'",
-        "file": "03-26-1934.jpg"
-      }
-    ]
-  },
-  {
-    "date": "March 27",
-    "short_date": "0327",
-    "entries": [
-      {
-        "year": "1985",
-        "title": "Billy Dee Williams receives a star on the Hollywood Walk of Fame.",
-        "caption": "Yoda and Chewbacca standing on the sidewalk above Billy Dee Williams's star. Yoda says, 'Billy Dee Williams, who the hell is?' Chewbacca grunts in response.",
-        "file": "03-27-1985.jpg"
-      }
-    ]
-  },
-  {
-    "date": "March 28",
-    "short_date": "0328",
-    "entries": [
-      {
-        "year": "1738",
-        "title": "The Parliament asks King George II to seek redress from Spain, kicking off the War of Jenkins' Ear.",
-        "caption": "The king stands holding a red dress on a coat hanger and says, 'Okay, I got it, but I don't get it.'",
-        "file": "03-28-1738.jpg"
-      }
-    ]
-  },
-  {
-    "date": "March 29",
-    "short_date": "0329",
-    "entries": [
-      {
-        "year": "1867",
-        "title": "Queen Victoria gives royal assent to the British North American Act, which created Canada.",
-        "caption": "The queen stands and says, 'I think those Yanks need a nice hat. Make it so.'",
-        "file": "03-29-1867.jpg"
-      },
-      {
-        "year": "1886",
-        "title": "John Pemberton brews the first batch of Coca-Cola in Atlanta.",
-        "caption": "A man stands with wide eyes holding a bottle of Coca-Cola and says, 'Cocaine mixed with water is AMAZING.'",
-        "file": "03-29-1886.jpg"
-      },
-      {
-        "year": "1961",
-        "title": "The 23rd Amendment is ratified, giving residents of Washington, DC, a vote in Presidential elections.",
-        "caption": "A man standing in front of the US Capitol building with an 'I voted' sticker says, 'We're still not represented in Congress, though.'",
-        "file": "03-29-1961.jpg"
-      }
-    ]
-  },
-  {
-    "date": "March 30",
-    "short_date": "0330",
-    "entries": [
-      {
-        "year": "1992",
-        "title": "The Silence of the Lambs wins the Oscar for Best Picture.",
-        "caption": "A sheep and a man standing in a field. The sheep says 'baaah' but is cut off by the man saying, 'You shut up you little shit.'",
-        "file": "03-30-1992.jpg"
-      }
-    ]
-  },
-  {
-    "date": "March 31",
-    "short_date": "0331",
-    "entries": [
-      {
-        "year": "1918",
-        "title": "Daylight Savings Time goes into effect in the United States for the first time.",
-        "caption": "A man adjusts a clock and says, 'Time to spring forward!' A piranha creeper from Mario looks at the man and says, 'Say sike right now.'",
-        "file": "03-31-1918.jpg"
-      }
-    ]
-  },
-  {
-    "date": "Aril 1",
-    "short_date": "0401",
-    "entries": [
-      {
-        "year": "1948",
-        "title": "A paper describing how the elements came into being after the Big Bang is published by Alpher, Gamow, and Bethe.",
-        "caption": "Two men look at a chalkboard showing the formation of the universe. One says, 'So the whole universe is really just debris?' The other says, 'It WOULD explain a lot.'",
-        "file": "04-01-1948.jpg"
-      }
-    ]
-  },
-  {
-    "date": "Aril 2",
-    "short_date": "0402",
-    "entries": [
-      {
-        "year": "1968",
-        "title": "2001: A Space Odyssey premiers",
-        "caption": "The computer HAL 9000 is speaking: 'Look Dave, I can see you're really upset about this. I honestly think you ought to sit down calmly, take a stress pill, and think things over. If you could see the next 19 years, you might not mind the lack of oxygen right now.",
-        "file": "04-02-1968.jpg"
-      }
-    ]
-  },
-  {
-    "date": "Aril 3",
-    "short_date": "0403",
-    "entries": [
-      {
-        "year": "1043",
-        "title": "Edward the Confessor is crowned King of England",
-        "caption": "A king stands with arms raised in victory and says, 'HA! I took the cookies, I left the seat up, I farted in the car, and now there's nothing you can do about it!'",
-        "file": "04-03-1043.jpg"
-      }
-    ]
-  },
-  {
-    "date": "Aril 4",
-    "short_date": "0404",
-    "entries": [
-      {
-        "year": "1984",
-        "title": "Ronald Reagan calls for a ban on chemical weapons",
-        "caption": "A man stands at a lectern and says, 'We should ban chemical weapons. Chemicals are very bad and we must completely stop using them to make weapons!' An aside reads, '...and peace reigned...'",
-        "file": "04-04-1984.jpg"
-      }
-    ]
-  },
-  {
-    "date": "Aril 5",
-    "short_date": "0405",
-    "entries": [
-      {
-        "year": "1621",
-        "title": "The Mayflower departs from Plymouth, Massachusetts, on a return voyage to England.",
-        "caption": "Two Pilgrims stand on shore walking towards a boat. One says, 'Let's get the hell out of here.' The other responds, 'Yeah, this place is bananas.'",
-        "file": "04-05-1621.jpg"
-      }
-    ]
-  },
-  {
-    "date": "Aril 6",
-    "short_date": "0406",
-    "entries": [
-      {
-        "year": "1947",
-        "title": "The first Tony Awards",
-        "caption": "A tiger stands to the side and exclaims, 'You're grrrrrrreat!'",
-        "file": "04-06-1947.jpg"
-      }
-    ]
-  },
-  {
-    "date": "Aril 7",
-    "short_date": "0407",
-    "entries": [
-      {
-        "year": "1999",
-        "title": "The World Trade Organization ends the long-running dispute between the United States and the European Union about bananas, ruling in favor of the US.",
-        "caption": "Two people stand before a judge. The American is holding a bunch of bananas and says, 'This shit is bananas! B A N A N A S!' The European responds, 'No it isn't, you cheerleader.' The judge sighs and says, 'Yeah, those are very clearly bananas.",
-        "file": "04-07-1999.jpg"
-      }
-    ]
-  },
-  {
-    "date": "Aril 8",
-    "short_date": "0408",
-    "entries": [
-      {
-        "year": "1959",
-        "title": "Grace Hopper and her team meet for the first time to begin creating what will eventually become COBOL.",
-        "caption": "A female admiral stands at a table of other people and says, 'Yes, everyone will make fun of it, but we must make it good because these doofuses will be using whatever we make for at least 60 years.",
-        "file": "04-08-1959.jpg"
-      }
-    ]
-  },
-  {
-    "date": "Aril 9",
-    "short_date": "0409",
-    "entries": [
-      {
-        "year": "1991",
-        "title": "Georgia declares independence from the Soviet Union.",
-        "caption": "The US state of Georgia says, 'I denounce the Soviet Union and declare my independence!' The US state of Alabama responds, 'Dude, what the hell?'",
-        "file": "04-09-1991.jpg"
-      }
-    ]
-  },
-  {
-    "date": "Aril 10",
-    "short_date": "0410",
-    "entries": [
-      {
-        "year": "1970",
-        "title": "Paul McCartney announces he is leaving the Beatles.",
-        "caption": "Four people are in a Volkswagen Beetle. One man stands outside waving and says, 'Sorry boys, it was just too cramped in there.'",
-        "file": "04-10-1970.jpg"
-      }
-    ]
-  },
-  {
-    "date": "April 11",
-    "short_date": "0411",
-    "entries": [
-      {
-        "year": "1951",
-        "title": "General Douglas MacArthur is relieved of command in Korea by President Harry Truman",
-        "caption": "A general stands speaking and says, 'Old soldiers never die, just fade aw– no! Wait! Not literally!' as his body fades away",
-        "file": "04-11-1951.jpg"
-      }
-    ]
-  },
-  {
-    "date": "April 12",
-    "short_date": "0412",
-    "entries": [
-      {
-        "year": "1954",
-        "title": "Billy Haley and the Comets record 'Rock Around the Clock'",
-        "caption": "A jukebox plays 'Rock Around the Clock' while Fonzie says 'eeeyyyyyy'",
-        "file": "04-12-1954.jpg"
-      }
-    ]
-  },
-  {
-    "date": "April 13",
-    "short_date": "0413",
-    "entries": [
-      {
-        "year": "1742",
-        "title": "First performance of Handel's Messiah",
-        "caption": "A choir sings on stage. A man in the audience stands with raised fist and says, 'You havent said Messiah a single time!",
-        "file": "04-13-1742.jpg"
-      }
-    ]
-  },
-  {
-    "date": "April 14",
-    "short_date": "0414",
-    "entries": [
-      {
-        "year": "1862",
-        "title": "US Civil War battle of Fort Pillow, Tennessee",
-        "caption": "Soldiers behind a pillow fort hold pillows above their head while soldiers on the other side charge with pillows.",
-        "file": "04-14-1862.jpg"
-      }
-    ]
-  },
-  {
-    "date": "April 15",
-    "short_date": "0415",
-    "entries": [
-      {
-        "year": "1947",
-        "title": "Jackie Robinson debuts for the Brooklyn Dodgers, the first African-American allowed to play in US major league baseball.",
-        "caption": "Jackie Robinson stands holding a baseball bat, wearing a Brooklyn Dodgers uniform with number 47.",
-        "file": "04-15-1947.jpg"
-      }
-    ]
-  },
-  {
-    "date": "April 16",
-    "short_date": "0416",
-    "entries": [
-      {
-        "year": "1881",
-        "title": "In Dodge City, Kansas, Bat Masterson has his final gunfight.",
-        "caption": "A bat-winged man with boxing gloves faces an oversided revolver for a fight.",
-        "file": "04-16-1881.jpg"
-      }
-    ]
-  },
-  {
-    "date": "April 17",
-    "short_date": "0417",
-    "entries": [
-      {
-        "year": "1924",
-        "title": "The Metro, Goldwyn, and Mayer film studios merge to create MGM.",
-        "caption": "A person is chased by a lion. They say, 'Why did we pick a lion?'",
-        "file": "04-17-1924.jpg"
-      }
-    ]
-  },
-  {
-    "date": "April 18",
-    "short_date": "0418",
-    "entries": [
-      {
-        "year": "1930",
-        "title": "BBC Radio news announces 'there is no news' and broadcasts music instead.",
-        "caption": "A person reclines in a chair and says, 'Best. Day. Ever.'",
-        "file": "04-18-1930.jpg"
-      }
-    ]
-  },
-  {
-    "date": "April 19",
-    "short_date": "0419",
-    "entries": [
-      {
-        "year": "1943",
-        "title": "Albert Hoffman deliberately doses himself with LSD for the first time.",
-        "caption": "A man seeing waves of colors says, 'The snozzberries taste like snozzberries!'",
-        "file": "04-19-1943.jpg"
-      }
-    ]
-  },
-  {
-    "date": "April 20",
-    "short_date": "0420",
-    "entries": [
-      {
-        "year": "1918",
-        "title": "Manfred von Richtofen shoots down two enemies, getting his 79th and 80th victories.",
-        "caption": "A red German Fokker Dr.1 triplane flies across the page.",
-        "file": "04-20-1918.jpg"
-      }
-    ]
-  },
-  {
-    "date": "April 21",
-    "short_date": "0421",
-    "entries": [
-      {
-        "year": "1918",
-        "title": "Baron von Richtofen, better known as the Red Baron, is shot down for the last time",
-        "caption": "Snoopy is dressed in old-timey pilot gear, sitting on top of his doghouse. He says 'got im'",
-        "file": "04-21-1918.jpg"
-      }
-    ]
-  },
-  {
-    "date": "April 22",
-    "short_date": "0422",
-    "entries": [
-      {
-        "year": "1993",
-        "title": "NCSA Mosaic web browser version 1.0 released, bringing the modern web to life",
-        "caption": "A person pointing at a calendar labeled April 22 says, 'And this is the day it all went to shit.'",
-        "file": "04-22-1993.jpg"
-      }
-    ]
-  },
-  {
-    "date": "April 23",
-    "short_date": "0423",
-    "entries": [
-      {
-        "year": "1914",
-        "title": "First game at Wrigley Field, then known as Weegham Park",
-        "caption": "Wrigley Field",
-        "file": "04-23-1914.jpg"
-      }
-    ]
-  },
-  {
-    "date": "April 24",
-    "short_date": "0424",
-    "entries": [
-      {
-        "year": "1558",
-        "title": "Mary, Queen of Scots, marries the Dauphin of France at Notre Dame de Paris",
-        "caption": "A queen and a dolphin stand in front of the Notre Dame cathedral in Paris. The queen thinks, 'He doesnt look anything like his profile pic...'",
-        "file": "04-24-1558.jpg"
-      }
-    ]
-  },
-  {
-    "date": "April 25",
-    "short_date": "0425",
-    "entries": [
-      {
-        "year": "1953",
-        "title": "The structure of DNA as a double-helix is reported in the journal Nature in three simultaneous papers by Watson and Crick (describing a physical model of DNA), and Wilkins and Franklin (describing the data that underpinned the physical model).",
-        "caption": "A DNA double helix",
-        "file": "04-25-1953.jpg"
-      }
-    ]
-  },
-  {
-    "date": "April 26",
-    "short_date": "0426",
-    "entries": [
-      {
-        "year": "1905",
-        "title": "Cubs outfielder Jack McCarthy becomes the first major league player to throw out three runners at home plate in a single game",
-        "caption": "A Chicago Cubs baseball player throws a ball",
-        "file": "04-26-1905.jpg"
-      }
-    ]
-  },
-  {
-    "date": "April 27",
-    "short_date": "0427",
-    "entries": [
-      {
-        "year": "1981",
-        "title": "Xerox PARC introduces the computer mouse",
-        "caption": "A mouse is sitting at a computer, typing commands",
-        "file": "04-27-1981.jpg"
-      }
-    ]
-  },
-  {
-    "date": "April 28",
-    "short_date": "0428",
-    "entries": [
-      {
-        "year": "1881",
-        "title": "Billy the Kid escapes from jail",
-        "caption": "A baby wearing a cowboy hat and holster is crawling away from a crib",
-        "file": "04-28-1881.jpg"
-      }
-    ]
-  },
-  {
-    "date": "April 29",
-    "short_date": "0429",
-    "entries": [
-      {
-        "year": "1429",
-        "title": "Joan of Arc arrives to lift the siege of Orleans in the Hundred Years War",
-        "caption": "A woman in armor stands outside a castle, looking out towards enemy soldiers and says, 'What if, instead of saving this old Orleans, we just built a new one?'",
-        "file": "04-29-1429.jpg"
-      }
-    ]
-  },
-  {
-    "date": "April 30",
-    "short_date": "0430",
-    "entries": [
-      {
-        "year": "2013",
-        "title": "Willem-Alexander is inaugurated King of the Netherlands after the abdication of Beatrix",
-        "caption": "A king is throwing an orange toilet screaming, 'KING OF THROWING TOILETS!'",
-        "file": "04-30-2013.jpg"
-      }
-    ]
-  },
-  {
-    "date": "May 1",
-    "short_date": "0501",
-    "entries": [
-      {
-        "year": "1707",
-        "title": "The Acts of Union joining the Kingdoms of England and Scotland into the Kingdom of Great Britain takes effect.",
-        "caption": "People gathered around a table, Scottish flags on one side, English on the other. Two people sit at the table signing papers. One Scottish person says, 'We're really going to regret this in 300 years or so...'",
-        "file": "05-01-1707.png"
-      }
-    ]
-  },
-  {
-    "date": "May 2",
-    "short_date": "0502",
-    "entries": [
-      {
-        "year": "1780",
-        "title": "Xi Ursae Majoris, the first binary star discovered, is spotted by William Herschel.",
-        "caption": "A man looks into a telescope at a pair of stars encircled with 001100010010011110100001101101110011 and says, '...0011?' Behind him, a paradox-correcting timesphere opens with a robotic leg sticking out.",
-        "file": "05-02-1780.png"
-      }
-    ]
-  },
-  {
-    "date": "May 3",
-    "short_date": "0503",
-    "entries": [
-      {
-        "year": "1952",
-        "title": "The Kentucky Derby is televised nationally for the first time.",
-        "caption": "A person is looking at a TV and says 'Why do people like this so much?' On the TV is a derby hat with the Kentucky flag waving in the background.",
-        "file": "05-03-1952.png"
-      }
-    ]
-  },
-  {
-    "date": "May 4",
-    "short_date": "0504",
-    "entries": [
-      {
-        "year": "1814",
-        "title": "The Bourbon Restoration begins in France with the exile of Napoleon and the new reign of Louis XVIII.",
-        "caption": "A bottle of bourbon wearing a crown says, 'Down with wine! Hail to the king, baby!'",
-        "file": "05-04-1814.png"
-      }
-    ]
-  },
-  {
-    "date": "May 5",
-    "short_date": "0505",
-    "entries": [
-      {
-        "year": "1925",
-        "title": "John T. Scopes is arrested for teaching evolution in violation of Tennessee law.",
-        "caption": "An angry monkey gestures wildly, wearing a golden cross and a sash saying 'William Jennings Bryan.' A person standing next to it says, 'I mean sure, not EVERYONE has evolved, but still...'",
-        "file": "05-05-1925.png"
-      }
-    ]
-  },
-  {
-    "date": "May 6",
-    "short_date": "0506",
-    "entries": [
-      {
-        "year": "1935",
-        "title": "The Works Progress Administration is created by President Roosevelt's executive order 7034.",
-        "caption": "A new bridge spanning a canyon and river",
-        "file": "05-06-1935.png"
-      }
-    ]
-  },
-  {
-    "date": "May 7",
-    "short_date": "0507",
-    "entries": [
-      {
-        "year": "1274",
-        "title": "The Second Council of Lyon begins in France to set rules for the election of the Pope",
-        "caption": "Two lions arue at a table",
-        "file": "05-07-1274.png"
-      }
-    ]
-  },
-  {
-    "date": "May 8",
-    "short_date": "0508",
-    "entries": [
-      {
-        "year": "1886",
-        "title": "John Pemberton sells Coca-Cola as a patent medicne for the first time",
-        "caption": "A man offering bottles of Coca-Cola on a table. A sign reads 'Cocaine Water 5¢.' The man says, 'This is some good shit first sip is free.'",
-        "file": "05-08-1886.png"
-      }
-    ]
-  },
-  {
-    "date": "May 9",
-    "short_date": "0509",
-    "entries": [
-      {
-        "year": "1874",
-        "title": "The first horsebus is debuted in Mumbai, India",
-        "caption": "A very long horse that is also a bus with some people in it",
-        "file": "05-09-1874.png"
-      }
-    ]
-  },
-  {
-    "date": "May 10",
-    "short_date": "0510",
-    "entries": [
-      {
-        "year": "1872",
-        "title": "Victoria Woodhull becomes the first woman to run for President of the United States nominated by the Equal Rights Party.",
-        "caption": "A woman stands in front of a lectern and says, 'What if we treated everyone with respect, gave equal pay, and stopped calling everyone 'guys'?",
-        "file": "05-10-1872.png"
-      }
-    ]
-  },
-  {
-    "date": "May 11",
-    "short_date": "0511",
-    "entries": [
-      {
-        "year": "1858",
-        "title": "Minnesota becomes the thirty-second state of the United States",
-        "caption": "The people stand in front of the Minnesota flag. The first says, 'Oh hey, we're a state now dontcha know.' The second responds, 'Oh you dont say!' The first person says, 'Oh yeah, it's true, you betcha!' The second person replies, 'Oh for fun!'",
-        "file": "05-11-1858.png"
-      }
-    ]
-  },
-  {
-    "date": "May 12",
-    "short_date": "0512",
-    "entries": [
-      {
-        "year": "1846",
-        "title": "The Donner Party departs Independence, Missouri, on a journey to California.",
-        "caption": "A prairie on a green screen with a wagon and ox in front. A banner beneath the wagon reads, 'You were eaten by your children.'",
-        "file": "05-12-1846.png"
-      }
-    ]
-  },
-  {
-    "date": "May 13",
-    "short_date": "0513",
-    "entries": [
-      {
-        "year": "1983",
-        "title": "Reggie Jackson becomes the first person in Major League Baseball to strike out 2,000 times.",
-        "caption": "Reggie Jackson stands at home plate as a pitch goes past. The umpire yells 'Strike three!' Reggie Jackson thinks, 'Yes! A record!'",
-        "file": "05-13-1983.png"
-      }
-    ]
-  },
-  {
-    "date": "May 14",
-    "short_date": "0514",
-    "entries": [
-      {
-        "year": "1097",
-        "title": "The First Crusade begins in earnest with the Siege of Nicaea",
-        "caption": "A man in a brown hat swings by on a whip. In movie font reads: 'Virginia Smith and the First Crusade'",
-        "file": "05-14-1097.png"
-      }
-    ]
-  },
-  {
-    "date": "May 15",
-    "short_date": "0515",
-    "entries": [
-      {
-        "year": "1928",
-        "title": "Mickey Mouse debuts in his first cartoon, Plane Crazy",
-        "caption": "A Disney 'mouse ears' logo with red eyes and the words 'OMNIA MEA'",
-        "file": "05-15-1928.jpg"
-      }
-    ]
-  },
-  {
-    "date": "May 16",
-    "short_date": "0516",
-    "entries": [
-      {
-        "year": "1866",
-        "title": "The nickel coin is established by an act of the US Congress",
-        "caption": "Two people are standing. One is holding four pennies and says, 'Man, carrying around more than 4 pennies really sucks.' The other looks thoughtfully and says, 'There must be a better way...'",
-        "file": "05-16-1866.jpg"
-      }
-    ]
-  },
-  {
-    "date": "May 17",
-    "short_date": "0517",
-    "entries": [
-      {
-        "year": "1792",
-        "title": "The New York Stock Exchange is founded",
-        "caption": "Four wealthy people at an expensive banquet raise gold goblets and declare, 'Fuck the poor!'",
-        "file": "05-17-1792.jpg"
-      },
-      {
-        "year": "1954",
-        "title": "The US Supreme Court unaminously decides that segregation of schools on the basis of race is unconstitutional",
-        "caption": "A judge bangs a gavel and declares loudly, 'SEPARATE IS INHERENTLY UNEQUAL.'",
-        "file": "05-17-1954.jpg"
-      }
-    ]
-  },
-  {
-    "date": "May 18",
-    "short_date": "0518",
-    "entries": [
-      {
-        "year": "1860",
-        "title": "At the Republican National Convention, Abraham Lincoln is nominted for President on the third ballot",
-        "caption": "Abraham Lincoln stands triumphantly in front of red white and blue bunting",
-        "file": "05-18-1860.jpg"
-      }
-    ]
-  },
-  {
-    "date": "May 19",
-    "short_date": "0519",
-    "entries": [
-      {
-        "year": "1780",
-        "title": "Around mid-day, the sky over New England and parts of Canada went so dark as to require candles, due to an unusual combination of clouds, thick fog, and forest fire smoke.",
-        "caption": "Two people are standing. One is holding a candle and says, 'What a day, huh?' The other says, 'Lemon, its noon.'",
-        "file": "05-19-1780.jpg"
-      }
-    ]
-  },
-  {
-    "date": "May 20",
-    "short_date": "0520",
-    "entries": [
-      {
-        "year": "1882",
-        "title": "The Triple Alliance between the German Empire, Austria-Hungary, and the Kingdom of Italy is formed.",
-        "caption": "Three leaders sign a document at a table. The first wearing a German spiked helmet says, 'Friends forever!' The next wearing an Austro-Hungarian soldier's cap says, 'This is the best!' The final wearing an Italian royal cap says, 'Nothing can go wrong!'",
-        "file": "05-20-1882.jpg"
-      }
-    ]
-  }
-]
+{
+  "0325": [
+    {
+      "caption": "Man looking into a telescope at Saturn, saying 'That's a big-ass moon.'",
+      "title": "Christiaan Huygens discovers the largest moon of Saturn, Titan",
+      "year": "1655"
+    }
+  ],
+  "0326": [
+    {
+      "caption": "A car driving down the road with two people. One person says, 'You are really bad at this and we never should have allowed it.'",
+      "title": "The UK introduces a driving test.",
+      "year": "1934"
+    }
+  ],
+  "0327": [
+    {
+      "caption": "Yoda and Chewbacca standing on the sidewalk above Billy Dee Williams's star. Yoda says, 'Billy Dee Williams, who the hell is?' Chewbacca grunts in response.",
+      "title": "Billy Dee Williams receives a star on the Hollywood Walk of Fame.",
+      "year": "1985"
+    }
+  ],
+  "0328": [
+    {
+      "caption": "The king stands holding a red dress on a coat hanger and says, 'Okay, I got it, but I don't get it.'",
+      "title": "The Parliament asks King George II to seek redress from Spain, kicking off the War of Jenkins' Ear.",
+      "year": "1738"
+    }
+  ],
+  "0329": [
+    {
+      "caption": "The queen stands and says, 'I think those Yanks need a nice hat. Make it so.'",
+      "title": "Queen Victoria gives royal assent to the British North American Act, which created Canada.",
+      "year": "1867"
+    },
+    {
+      "caption": "A man stands with wide eyes holding a bottle of Coca-Cola and says, 'Cocaine mixed with water is AMAZING.'",
+      "title": "John Pemberton brews the first batch of Coca-Cola in Atlanta.",
+      "year": "1886"
+    },
+    {
+      "caption": "A man standing in front of the US Capitol building with an 'I voted' sticker says, 'We're still not represented in Congress, though.'",
+      "title": "The 23rd Amendment is ratified, giving residents of Washington, DC, a vote in Presidential elections.",
+      "year": "1961"
+    }
+  ],
+  "0330": [
+    {
+      "caption": "A sheep and a man standing in a field. The sheep says 'baaah' but is cut off by the man saying, 'You shut up you little shit.'",
+      "title": "The Silence of the Lambs wins the Oscar for Best Picture.",
+      "year": "1992"
+    }
+  ],
+  "0331": [
+    {
+      "caption": "A man adjusts a clock and says, 'Time to spring forward!' A piranha creeper from Mario looks at the man and says, 'Say sike right now.'",
+      "title": "Daylight Savings Time goes into effect in the United States for the first time.",
+      "year": "1918"
+    }
+  ],
+  "0401": [
+    {
+      "caption": "Two men look at a chalkboard showing the formation of the universe. One says, 'So the whole universe is really just debris?' The other says, 'It WOULD explain a lot.'",
+      "title": "A paper describing how the elements came into being after the Big Bang is published by Alpher, Gamow, and Bethe.",
+      "year": "1948"
+    }
+  ],
+  "0402": [
+    {
+      "caption": "The computer HAL 9000 is speaking: 'Look Dave, I can see you're really upset about this. I honestly think you ought to sit down calmly, take a stress pill, and think things over. If you could see the next 19 years, you might not mind the lack of oxygen right now.",
+      "title": "2001: A Space Odyssey premiers",
+      "year": "1968"
+    }
+  ],
+  "0403": [
+    {
+      "caption": "A king stands with arms raised in victory and says, 'HA! I took the cookies, I left the seat up, I farted in the car, and now there's nothing you can do about it!'",
+      "title": "Edward the Confessor is crowned King of England",
+      "year": "1043"
+    }
+  ],
+  "0404": [
+    {
+      "caption": "A man stands at a lectern and says, 'We should ban chemical weapons. Chemicals are very bad and we must completely stop using them to make weapons!' An aside reads, '...and peace reigned...'",
+      "title": "Ronald Reagan calls for a ban on chemical weapons",
+      "year": "1984"
+    }
+  ],
+  "0405": [
+    {
+      "caption": "Two Pilgrims stand on shore walking towards a boat. One says, 'Let's get the hell out of here.' The other responds, 'Yeah, this place is bananas.'",
+      "title": "The Mayflower departs from Plymouth, Massachusetts, on a return voyage to England.",
+      "year": "1621"
+    }
+  ],
+  "0406": [
+    {
+      "caption": "A tiger stands to the side and exclaims, 'You're grrrrrrreat!'",
+      "title": "The first Tony Awards",
+      "year": "1947"
+    }
+  ],
+  "0407": [
+    {
+      "caption": "Two people stand before a judge. The American is holding a bunch of bananas and says, 'This shit is bananas! B A N A N A S!' The European responds, 'No it isn't, you cheerleader.' The judge sighs and says, 'Yeah, those are very clearly bananas.",
+      "title": "The World Trade Organization ends the long-running dispute between the United States and the European Union about bananas, ruling in favor of the US.",
+      "year": "1999"
+    }
+  ],
+  "0408": [
+    {
+      "caption": "A female admiral stands at a table of other people and says, 'Yes, everyone will make fun of it, but we must make it good because these doofuses will be using whatever we make for at least 60 years.",
+      "title": "Grace Hopper and her team meet for the first time to begin creating what will eventually become COBOL.",
+      "year": "1959"
+    }
+  ],
+  "0409": [
+    {
+      "caption": "The US state of Georgia says, 'I denounce the Soviet Union and declare my independence!' The US state of Alabama responds, 'Dude, what the hell?'",
+      "title": "Georgia declares independence from the Soviet Union.",
+      "year": "1991"
+    }
+  ],
+  "0410": [
+    {
+      "caption": "Four people are in a Volkswagen Beetle. One man stands outside waving and says, 'Sorry boys, it was just too cramped in there.'",
+      "title": "Paul McCartney announces he is leaving the Beatles.",
+      "year": "1970"
+    }
+  ],
+  "0411": [
+    {
+      "caption": "A general stands speaking and says, 'Old soldiers never die, just fade aw– no! Wait! Not literally!' as his body fades away",
+      "title": "General Douglas MacArthur is relieved of command in Korea by President Harry Truman",
+      "year": "1951"
+    }
+  ],
+  "0412": [
+    {
+      "caption": "A jukebox plays 'Rock Around the Clock' while Fonzie says 'eeeyyyyyy'",
+      "title": "Billy Haley and the Comets record 'Rock Around the Clock'",
+      "year": "1954"
+    }
+  ],
+  "0413": [
+    {
+      "caption": "A choir sings on stage. A man in the audience stands with raised fist and says, 'You havent said Messiah a single time!",
+      "title": "First performance of Handel's Messiah",
+      "year": "1742"
+    }
+  ],
+  "0414": [
+    {
+      "caption": "Soldiers behind a pillow fort hold pillows above their head while soldiers on the other side charge with pillows.",
+      "title": "US Civil War battle of Fort Pillow, Tennessee",
+      "year": "1862"
+    }
+  ],
+  "0415": [
+    {
+      "caption": "Jackie Robinson stands holding a baseball bat, wearing a Brooklyn Dodgers uniform with number 47.",
+      "title": "Jackie Robinson debuts for the Brooklyn Dodgers, the first African-American allowed to play in US major league baseball.",
+      "year": "1947"
+    }
+  ],
+  "0416": [
+    {
+      "caption": "A bat-winged man with boxing gloves faces an oversided revolver for a fight.",
+      "title": "In Dodge City, Kansas, Bat Masterson has his final gunfight.",
+      "year": "1881"
+    }
+  ],
+  "0417": [
+    {
+      "caption": "A person is chased by a lion. They say, 'Why did we pick a lion?'",
+      "title": "The Metro, Goldwyn, and Mayer film studios merge to create MGM.",
+      "year": "1924"
+    }
+  ],
+  "0418": [
+    {
+      "caption": "A person reclines in a chair and says, 'Best. Day. Ever.'",
+      "title": "BBC Radio news announces 'there is no news' and broadcasts music instead.",
+      "year": "1930"
+    }
+  ],
+  "0419": [
+    {
+      "caption": "A man seeing waves of colors says, 'The snozzberries taste like snozzberries!'",
+      "title": "Albert Hoffman deliberately doses himself with LSD for the first time.",
+      "year": "1943"
+    }
+  ],
+  "0420": [
+    {
+      "caption": "A red German Fokker Dr.1 triplane flies across the page.",
+      "title": "Manfred von Richtofen shoots down two enemies, getting his 79th and 80th victories.",
+      "year": "1918"
+    }
+  ],
+  "0421": [
+    {
+      "caption": "Snoopy is dressed in old-timey pilot gear, sitting on top of his doghouse. He says 'got im'",
+      "title": "Baron von Richtofen, better known as the Red Baron, is shot down for the last time",
+      "year": "1918"
+    }
+  ],
+  "0422": [
+    {
+      "caption": "A person pointing at a calendar labeled April 22 says, 'And this is the day it all went to shit.'",
+      "title": "NCSA Mosaic web browser version 1.0 released, bringing the modern web to life",
+      "year": "1993"
+    }
+  ],
+  "0423": [
+    {
+      "caption": "Wrigley Field",
+      "title": "First game at Wrigley Field, then known as Weegham Park",
+      "year": "1914"
+    }
+  ],
+  "0424": [
+    {
+      "caption": "A queen and a dolphin stand in front of the Notre Dame cathedral in Paris. The queen thinks, 'He doesnt look anything like his profile pic...'",
+      "title": "Mary, Queen of Scots, marries the Dauphin of France at Notre Dame de Paris",
+      "year": "1558"
+    }
+  ],
+  "0425": [
+    {
+      "caption": "A DNA double helix",
+      "title": "The structure of DNA as a double-helix is reported in the journal Nature in three simultaneous papers by Watson and Crick (describing a physical model of DNA), and Wilkins and Franklin (describing the data that underpinned the physical model).",
+      "year": "1953"
+    }
+  ],
+  "0426": [
+    {
+      "caption": "A Chicago Cubs baseball player throws a ball",
+      "title": "Cubs outfielder Jack McCarthy becomes the first major league player to throw out three runners at home plate in a single game",
+      "year": "1905"
+    }
+  ],
+  "0427": [
+    {
+      "caption": "A mouse is sitting at a computer, typing commands",
+      "title": "Xerox PARC introduces the computer mouse",
+      "year": "1981"
+    }
+  ],
+  "0428": [
+    {
+      "caption": "A baby wearing a cowboy hat and holster is crawling away from a crib",
+      "title": "Billy the Kid escapes from jail",
+      "year": "1881"
+    }
+  ],
+  "0429": [
+    {
+      "caption": "A woman in armor stands outside a castle, looking out towards enemy soldiers and says, 'What if, instead of saving this old Orleans, we just built a new one?'",
+      "title": "Joan of Arc arrives to lift the siege of Orleans in the Hundred Years War",
+      "year": "1429"
+    }
+  ],
+  "0430": [
+    {
+      "caption": "A king is throwing an orange toilet screaming, 'KING OF THROWING TOILETS!'",
+      "title": "Willem-Alexander is inaugurated King of the Netherlands after the abdication of Beatrix",
+      "year": "2013"
+    }
+  ],
+  "0501": [
+    {
+      "caption": "People gathered around a table, Scottish flags on one side, English on the other. Two people sit at the table signing papers. One Scottish person says, 'We're really going to regret this in 300 years or so...'",
+      "title": "The Acts of Union joining the Kingdoms of England and Scotland into the Kingdom of Great Britain takes effect.",
+      "year": "1707"
+    }
+  ],
+  "0502": [
+    {
+      "caption": "A man looks into a telescope at a pair of stars encircled with 001100010010011110100001101101110011 and says, '...0011?' Behind him, a paradox-correcting timesphere opens with a robotic leg sticking out.",
+      "title": "Xi Ursae Majoris, the first binary star discovered, is spotted by William Herschel.",
+      "year": "1780"
+    }
+  ],
+  "0503": [
+    {
+      "caption": "A person is looking at a TV and says 'Why do people like this so much?' On the TV is a derby hat with the Kentucky flag waving in the background.",
+      "title": "The Kentucky Derby is televised nationally for the first time.",
+      "year": "1952"
+    }
+  ],
+  "0504": [
+    {
+      "caption": "A bottle of bourbon wearing a crown says, 'Down with wine! Hail to the king, baby!'",
+      "title": "The Bourbon Restoration begins in France with the exile of Napoleon and the new reign of Louis XVIII.",
+      "year": "1814"
+    }
+  ],
+  "0505": [
+    {
+      "caption": "An angry monkey gestures wildly, wearing a golden cross and a sash saying 'William Jennings Bryan.' A person standing next to it says, 'I mean sure, not EVERYONE has evolved, but still...'",
+      "title": "John T. Scopes is arrested for teaching evolution in violation of Tennessee law.",
+      "year": "1925"
+    }
+  ],
+  "0506": [
+    {
+      "caption": "A new bridge spanning a canyon and river",
+      "title": "The Works Progress Administration is created by President Roosevelt's executive order 7034.",
+      "year": "1935"
+    }
+  ],
+  "0507": [
+    {
+      "caption": "Two lions arue at a table",
+      "title": "The Second Council of Lyon begins in France to set rules for the election of the Pope",
+      "year": "1274"
+    }
+  ],
+  "0508": [
+    {
+      "caption": "A man offering bottles of Coca-Cola on a table. A sign reads 'Cocaine Water 5¢.' The man says, 'This is some good shit first sip is free.'",
+      "title": "John Pemberton sells Coca-Cola as a patent medicne for the first time",
+      "year": "1886"
+    }
+  ],
+  "0509": [
+    {
+      "caption": "A very long horse that is also a bus with some people in it",
+      "title": "The first horsebus is debuted in Mumbai, India",
+      "year": "1874"
+    }
+  ],
+  "0510": [
+    {
+      "caption": "A woman stands in front of a lectern and says, 'What if we treated everyone with respect, gave equal pay, and stopped calling everyone 'guys'?",
+      "title": "Victoria Woodhull becomes the first woman to run for President of the United States nominated by the Equal Rights Party.",
+      "year": "1872"
+    }
+  ],
+  "0511": [
+    {
+      "caption": "The people stand in front of the Minnesota flag. The first says, 'Oh hey, we're a state now dontcha know.' The second responds, 'Oh you dont say!' The first person says, 'Oh yeah, it's true, you betcha!' The second person replies, 'Oh for fun!'",
+      "title": "Minnesota becomes the thirty-second state of the United States",
+      "year": "1858"
+    }
+  ],
+  "0512": [
+    {
+      "caption": "A prairie on a green screen with a wagon and ox in front. A banner beneath the wagon reads, 'You were eaten by your children.'",
+      "title": "The Donner Party departs Independence, Missouri, on a journey to California.",
+      "year": "1846"
+    }
+  ],
+  "0513": [
+    {
+      "caption": "Reggie Jackson stands at home plate as a pitch goes past. The umpire yells 'Strike three!' Reggie Jackson thinks, 'Yes! A record!'",
+      "title": "Reggie Jackson becomes the first person in Major League Baseball to strike out 2,000 times.",
+      "year": "1983"
+    }
+  ],
+  "0514": [
+    {
+      "caption": "A man in a brown hat swings by on a whip. In movie font reads: 'Virginia Smith and the First Crusade'",
+      "title": "The First Crusade begins in earnest with the Siege of Nicaea",
+      "year": "1097"
+    }
+  ],
+  "0515": [
+    {
+      "caption": "A Disney 'mouse ears' logo with red eyes and the words 'OMNIA MEA'",
+      "title": "Mickey Mouse debuts in his first cartoon, Plane Crazy",
+      "year": "1928"
+    }
+  ],
+  "0516": [
+    {
+      "caption": "Two people are standing. One is holding four pennies and says, 'Man, carrying around more than 4 pennies really sucks.' The other looks thoughtfully and says, 'There must be a better way...'",
+      "title": "The nickel coin is established by an act of the US Congress",
+      "year": "1866"
+    }
+  ],
+  "0517": [
+    {
+      "caption": "Four wealthy people at an expensive banquet raise gold goblets and declare, 'Fuck the poor!'",
+      "title": "The New York Stock Exchange is founded",
+      "year": "1792"
+    },
+    {
+      "caption": "A judge bangs a gavel and declares loudly, 'SEPARATE IS INHERENTLY UNEQUAL.'",
+      "title": "The US Supreme Court unaminously decides that segregation of schools on the basis of race is unconstitutional",
+      "year": "1954"
+    }
+  ],
+  "0518": [
+    {
+      "caption": "Abraham Lincoln stands triumphantly in front of red white and blue bunting",
+      "title": "At the Republican National Convention, Abraham Lincoln is nominted for President on the third ballot",
+      "year": "1860"
+    }
+  ],
+  "0519": [
+    {
+      "caption": "Two people are standing. One is holding a candle and says, 'What a day, huh?' The other says, 'Lemon, its noon.'",
+      "title": "Around mid-day, the sky over New England and parts of Canada went so dark as to require candles, due to an unusual combination of clouds, thick fog, and forest fire smoke.",
+      "year": "1780"
+    }
+  ],
+  "0520": [
+    {
+      "caption": "Three leaders sign a document at a table. The first wearing a German spiked helmet says, 'Friends forever!' The next wearing an Austro-Hungarian soldier's cap says, 'This is the best!' The final wearing an Italian royal cap says, 'Nothing can go wrong!'",
+      "title": "The Triple Alliance between the German Empire, Austria-Hungary, and the Kingdom of Italy is formed.",
+      "year": "1882"
+    }
+  ]
+}
