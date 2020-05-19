@@ -64,12 +64,13 @@ with open("today/index.json", "r") as f:
     today_meta = json.load(f)
     f.close()
 
-for short_date in sorted(today_meta.keys()):
-    comics = today_meta[short_date]
-    comic_date = get_date_from_str(short_date)
-    if comic_date <= now:
-        write_html(short_date, comics)
-        if comic_date == now:
-            write_html(short_date, comics, True)
+for _ in range(2):
+    for short_date in sorted(today_meta.keys()):
+        comics = today_meta[short_date]
+        comic_date = get_date_from_str(short_date)
+        if comic_date <= now:
+            write_html(short_date, comics)
+            if comic_date == now:
+                write_html(short_date, comics, True)
 
 template.close()
