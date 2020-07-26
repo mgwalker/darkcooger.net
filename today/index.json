@@ -873,9 +873,16 @@
   ],
   "0724": [
     {
-      "caption": "A person stands in front of mountains and dying grass and shouts, 'We\\'ve arrived! The promised land of milk and... err... of salt and fruitless desert!'",
+      "caption": "A person stands in front of mountains and dying grass and shouts, 'Weve arrived! The promised land of milk and... err... of salt and fruitless desert!'",
       "title": "After seventeen years, Brigham Young and his 148 Mormon settlers stop in Utah.",
       "year": "1847"
+    }
+  ],
+  "0725": [
+    {
+      "caption": "A person in an old British Royal Navy uniform holds up a sword and yells, 'This is a Dummer War! Theres never been a Dummer war than this!'",
+      "title": "At the border between Maine and Massachusetts, Dummer's War begins.",
+      "year": "1722"
     }
   ]
 }
