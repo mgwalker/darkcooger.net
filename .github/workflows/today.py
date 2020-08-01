@@ -65,12 +65,28 @@ with open("today/index.json", "r") as f:
     f.close()
 
 for _ in range(2):
-    for short_date in sorted(today_meta.keys()):
-        comics = today_meta[short_date]
-        comic_date = get_date_from_str(short_date)
-        if comic_date <= now:
-            write_html(short_date, comics)
-            if comic_date == now:
-                write_html(short_date, comics, True)
+    # for short_date in sorted(today_meta.keys()):
+    #     comics = today_meta[short_date]
+    #     comic_date = get_date_from_str(short_date)
+    #     if comic_date <= now:
+    #         write_html(short_date, comics)
+    #         if comic_date == now:
+    #             write_html(short_date, comics, True)
+
+    all = [
+        {"date": get_date_str(get_date_from_str(short_date)), "short_date": short_date}
+        for short_date in sorted(today_meta.keys())
+    ]
+    print(all)
+
+    with open(f"docs/today/all.html", "w") as all_file:
+        all_template = open("today/all.mustache", "r")
+        all_file.write(chevron.render(all_template, all))
+        all_file.close()
+        all_template.close()
+    # template.seek(0)
+    # day_file.write(chevron.render(template, template_data))
+    # day_file.close()
+
 
 template.close()

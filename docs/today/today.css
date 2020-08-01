@@ -39,3 +39,14 @@ div.image + div.image {
   margin-top: 30px;
   padding-top: 30px;
 }
+
+div.all {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 600px;
+}
+
+div.all div.cell {
+  width: 33%;
+}
