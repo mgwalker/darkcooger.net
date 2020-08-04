@@ -41,12 +41,15 @@ div.image + div.image {
 }
 
 div.all {
-  display: flex;
-  flex-wrap: wrap;
+  column-gap: 0;
+  display: grid;
+  grid-template-columns: 31% 31% 31%;
   margin: 0 auto;
-  width: 600px;
+  text-align: left;
+  width: 800px;
 }
 
 div.all div.cell {
-  width: 33%;
+  border: 1px solid black;
+  padding: 5px;
 }

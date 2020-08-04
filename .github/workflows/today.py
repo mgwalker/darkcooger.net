@@ -80,10 +80,19 @@ template.close()
 
 
 all = [
-    {"date": get_date_str(get_date_from_str(short_date)), "short_date": short_date}
+    {
+        "date": get_date_str(get_date_from_str(short_date)),
+        "short_date": short_date,
+        "titles": [
+            {"title": comic["title"], "year": comic["year"]}
+            for comic in today_meta[short_date]
+        ],
+    }
     for short_date in sorted(today_meta.keys())
     if os.path.isfile(f"docs/today/{short_date}.html")
 ]
+
+print(all)
 
 with open(f"docs/today/all.html", "w") as all_file:
     all_template = open("today/all.mustache", "r")
