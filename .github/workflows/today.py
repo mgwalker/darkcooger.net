@@ -92,8 +92,6 @@ all = [
     if os.path.isfile(f"docs/today/{short_date}.html")
 ]
 
-print(all)
-
 with open(f"docs/today/all.html", "w") as all_file:
     all_template = open("today/all.mustache", "r")
     all_file.write(chevron.render(all_template, all))
