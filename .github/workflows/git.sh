@@ -7,7 +7,7 @@ then
   git config --local user.name "automatic update"
   git add .
   git commit -m "regular update"
-  git push "https://mgwalker:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY" HEAD:master
+  git push "https://mgwalker:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY" HEAD:main
 else
   echo "no changes detected; skipping"
 fi
