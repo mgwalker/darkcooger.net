@@ -14,7 +14,7 @@
   }
 
   function go() {
-      var remainder = timediff(new Date(), end, 'DHm');
+      var remainder = timediff(new Date(), end, 'DHmS');
       var percentDone = getPercentDone(total, remainder);
 
       $('div.progress-bar').css('width', percentDone + '%');
