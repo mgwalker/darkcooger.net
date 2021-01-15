@@ -13,8 +13,7 @@
     return Math.round((1 - (remainderDays / totalDays)) * 10000) / 100;
   }
 
-  $(document).ready(function() {
-    setInterval(() => {
+  function go() {
       var remainder = timediff(new Date(), end, 'DHm');
       var percentDone = getPercentDone(total, remainder);
 
@@ -23,6 +22,11 @@
       $('#remainder-days').text(remainder.days);
       $('#remainder-hours').text(remainder.hours + 1);
       $('#remainder-minutes').text(remainder.minutes);
-    }, 1000);
+      $('#remainder-seconds').text(remainder.seconds);
+  }
+  
+  $(document).ready(function() {
+    go();
+    setInterval(go, 1000);
   });
 })();
