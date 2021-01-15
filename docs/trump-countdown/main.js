@@ -14,13 +14,15 @@
   }
 
   $(document).ready(function() {
-    var remainder = timediff(new Date(), end, 'DHm');
-    var percentDone = getPercentDone(total, remainder);
+    setInterval(() => {
+      var remainder = timediff(new Date(), end, 'DHm');
+      var percentDone = getPercentDone(total, remainder);
 
-    $('div.progress-bar').css('width', percentDone + '%');
-    $('#remainder-percent').text(percentDone);
-    $('#remainder-days').text(remainder.days);
-    $('#remainder-hours').text(remainder.hours + 1);
-    $('#remainder-minutes').text(remainder.minutes);
+      $('div.progress-bar').css('width', percentDone + '%');
+      $('#remainder-percent').text(percentDone);
+      $('#remainder-days').text(remainder.days);
+      $('#remainder-hours').text(remainder.hours + 1);
+      $('#remainder-minutes').text(remainder.minutes);
+    }, 1000);
   });
 })();
