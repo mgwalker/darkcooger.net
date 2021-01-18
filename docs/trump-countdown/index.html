@@ -25,18 +25,26 @@
     />
   </head>
   <body>
-    <header>
-      <div class="progress-bar" style="width: 19.54%;"></div>
+    <header style="display: none">
+      <div class="progress-bar" style="width: 0%"></div>
       <div class="progress-number">
-        We're <span id="remainder-percent">19.54</span>% of the way through...
+        We're <span id="remainder-percent">0</span>% of the way through...
       </div>
     </header>
     <div class="table">
-      <div class="cell">
-        Trump’s term ends in <span id="remainder-days"></span> days,
-        <span id="remainder-hours"></span> hours,
-        <span id="remainder-minutes"></span> minutes,
-        <span id="remainder-seconds"></span> seconds
+      <div class="cell" style="display: none">
+        Trump’s term ends in <span id="remainder-days"></span> day<span
+          id="remainder-days-s"
+          >s</span
+        >, <span id="remainder-hours"></span> hour<span id="remainder-hours-s"
+          >s</span
+        >, <span id="remainder-minutes"></span> minute<span
+          id="remainder-minutes-s"
+          >s</span
+        >, <span id="remainder-seconds"></span> second<span
+          id="remainder-seconds-s"
+          >s</span
+        >
         <div class="sub">...unless we convict and remove the bastard</div>
       </div>
     </div>
