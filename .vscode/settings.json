@@ -1,7 +1,0 @@
-{
-  "python.pythonPath": "/Users/mgwalker/.local/share/virtualenvs/darkcooger.net-hF7P6oAF/bin/python",
-  "python.formatting.provider": "black",
-  "python.linting.pylintEnabled": false,
-  "python.linting.flake8Enabled": true,
-  "python.linting.enabled": true
-}
