@@ -20,14 +20,3 @@ div#background {
   opacity: 0.6;
   z-index: -1;
 }
-
-div#content a {
-  display: inline-block;
-  background: rgba(255, 255, 255, 0.3);
-  border-radius: 0px 10px 10px 0px;
-  color: white;
-  font-weight: bold;
-  margin: 10px 0;
-  padding: 10px;
-  text-decoration: none;
-}
